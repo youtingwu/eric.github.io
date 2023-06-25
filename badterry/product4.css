@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: solid 1px; */
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    background-color: #F2E1D8;
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2421B;
+    box-shadow: 0 0 10px;
+}
+header img{
+    background-color: aliceblue;
+    
+width: 100px;
+height: 97px;
+}
+nav{padding-top: 36px;
+    
+    margin-top:7px;
+    padding-right: 20px;
+    
+}
+nav a{
+
+color: #F2E1D8;
+padding: 10px;
+margin-right: 10px;
+    text-align: center;
+text-decoration: none;
+
+}
+header a:hover{
+/* background-color:aliceblue; */
+
+font-size: 20px;
+text-decoration:underline;
+}
+.container{
+    display: flex;
+    
+}
+.item-picture{
+    
+    width: 319px;
+    height: 437px;
+    position: relative;
+    top: 38px;
+    left: 95px;
+}
+/* .evaluate{
+    border: solid 1px;
+    width: 450px;
+    height: 410px;
+    position: relative;
+    top: 31px;
+    left: 279px;
+} */
+.box-1{
+    font-size: 90px;
+    width: 450px;
+    height: 150px;
+    position: relative;
+    top: 31px;
+    left: 206px;
+    color: #03A678;
+}
+.box-3{
+    font-size: 20px;
+    width: 450px;
+    height: 40px;
+    position: relative;
+    top: 20px;
+    left: 206px;
+}
+.box-4{
+    font-size: 20px;
+    width: 450px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 206px;
+}
+.box-2{
+    font-weight: 400;
+    width: 450px;
+    height: 205px;
+    position: relative;
+    top: 30px;
+    left: 206px;
+}
+.container-2{
+    position: relative;
+    top: -40px;
+    left: 87px;
+    display: flex;
+    
+}
+
+.item-1{
+    margin: 10px;
+    
+    width: 148px;
+    height: 81px;
+    background-color:aliceblue;
+}
+@media (max-width:600px) {
+    .container{
+        flex-wrap: wrap;
+    }
+    .item-picture{
+        width: 100%;
+    }
+    .container-2{
+        position: relative;
+        top: -410px;
+    }
+    .evaluate{
+        position: relative;
+        top: 100px;
+        right: 124px;
+    }
+    #picture{
+        position: relative;
+        right: 70px;
+    }
+}

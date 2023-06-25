@@ -1,0 +1,19 @@
+.cc{
+    display: flex;
+}
+.box {
+width: 280px;
+margin: 10px;
+background-color: aquamarine;
+}
+
+@media (max-width:500px) {
+    .cc{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box {
+        width: 100%;
+    }
+
+}
